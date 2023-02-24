@@ -1,35 +1,54 @@
 # Movie-Recommendation-system
 
-The propose of this system is to predict the top 5 similar movies based on the user's choice. A person may like a certain movie and wants to see some other based on the same type of movies he watched. This model can help him to find some good suggestions.
+This project aims to build a movie recommendation system using collaborative filtering technique. Collaborative filtering is a technique that recommends items based on the preferences of other users who have similar tastes.
 
-Data description : 
+Dataset
+The dataset used for this project is the MovieLens dataset. The dataset contains a total of 100,000 ratings from 943 users and 1,682 movies.
 
-The Movie Database provides two datasets: tmdb_5000_movies.csv (Movie credits data):
+Model
+The recommendation system is built using Python, and the models are built using the Surprise library. The project is divided into two parts: data preprocessing and modeling. In the data preprocessing part, the dataset is preprocessed and transformed into the required format for the modeling part. In the modeling part, collaborative filtering algorithms are used to generate movie recommendations for users.
 
-budget
-genres
-homepage
-id
-keywords
-original_language
-original_title
-overview
-popularity
-production_companies
-production_countries
-release_date
-revenue
-runtime
-spoken_languages
-status
-tagline
-title
-vote_average
-vote_count
-tmdb_5000_credits.csv:
-movie_id
-title
-cast
-crew 
+Technologies Used:
 
-We will merge the two datasets in order to get all the informations about the actors and the directors of their relative movie.
+Python
+
+Pandas Library
+
+NumPy Library
+
+Surprise Library
+
+Matplotlib Library
+
+Installation
+
+pip install pandas
+
+pip install numpy
+
+pip install scikit-surprise
+
+pip install matplotlib
+
+Project Structure
+
+├── Movie_Recommendation_System.ipynb
+
+├── data
+
+│   ├── movies.csv
+
+│   └── ratings.csv
+
+└── README.md
+
+Conclusion
+
+This project demonstrates how collaborative filtering algorithms can be used to build a movie recommendation system. The project showcases how to preprocess the 
+
+dataset and transform it into the required format for the modeling part. The results of this analysis can be used by movie streaming platforms to improve their 
+
+recommendation systems and provide personalized recommendations to their users.
+
+
+
